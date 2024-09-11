@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+		"baseUrl": ".",
+		"paths": {
+			"@src/*": ["src/*"],
+			"@components/*": ["src/components/*"],
+			"@hoc/*": ["src/hoc/*"],
+			"@canvas/*": ["src/components/canvas/*"],
+			"@assets/*": ["src/assets/*"],
+			"@utils/*": ["src/utils/*"],
+			"@constants/*": ["src/constants/*"],
+			"@public/*": ["public/*"],
+      "@styles": ["src/styles.js"],
+		}
+	},
+	"include": ["src"]
+}
